@@ -5,5 +5,6 @@ It then navigates to the jobs tab in the top menu.
 It uses the JOB_SEARCH_KEYWORD and JOB_SEARCH_LOCATION to search the jobs you want to apply for.    
 Once the search results are loaded, the bot goes through each job posting on the page and saves it and applies for it. 
 
-Only those jobs that can be directly applied from LinkedIn (Easy Apply) and those that have only one-step application ('Submit Application' present in the first dialog box pop-up) are considered. The rest are skipped.         
-The resume has to be updated beforehand on your LinkedIn profile at Me -> Settings & Privacy -> Job Seeking Preferences -> Job Application Settings.
+NOTE: Only those jobs that can be directly applied from LinkedIn (Easy Apply) and those that have only one-step application ('Submit Application' present in the first dialog box pop-up) are considered. The rest are skipped.          
+NOTE: The resume has to be updated beforehand on your LinkedIn profile at Me -> Settings & Privacy -> Job Seeking Preferences -> Job Application Settings.          
+NOTE: Do not enable 2-factor authentication/phone number verification while we are using Selenium. 
